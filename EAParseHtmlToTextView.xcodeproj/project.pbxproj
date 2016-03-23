@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4C2A681CA35A5D003273D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C2A671CA35A5D003273D5 /* main.m */; };
+		3E4C2A6B1CA35A5D003273D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C2A6A1CA35A5D003273D5 /* AppDelegate.m */; };
+		3E4C2A6E1CA35A5D003273D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C2A6D1CA35A5D003273D5 /* ViewController.m */; };
+		3E4C2A711CA35A5D003273D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C2A6F1CA35A5D003273D5 /* Main.storyboard */; };
+		3E4C2A731CA35A5D003273D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C2A721CA35A5D003273D5 /* Assets.xcassets */; };
+		3E4C2A761CA35A5D003273D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C2A741CA35A5D003273D5 /* LaunchScreen.storyboard */; };
+		3E4C2A811CA35A5E003273D5 /* EAParseHtmlToTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C2A801CA35A5E003273D5 /* EAParseHtmlToTextViewTests.m */; };
+		3E4C2A8C1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C2A8B1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4C2A7D1CA35A5E003273D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4C2A5B1CA35A5D003273D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4C2A621CA35A5D003273D5;
+			remoteInfo = EAParseHtmlToTextView;
+		};
+		3E4C2A881CA35A5E003273D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4C2A5B1CA35A5D003273D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4C2A621CA35A5D003273D5;
+			remoteInfo = EAParseHtmlToTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E4C2A631CA35A5D003273D5 /* EAParseHtmlToTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAParseHtmlToTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C2A671CA35A5D003273D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E4C2A691CA35A5D003273D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E4C2A6A1CA35A5D003273D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E4C2A6C1CA35A5D003273D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E4C2A6D1CA35A5D003273D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E4C2A701CA35A5D003273D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E4C2A721CA35A5D003273D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E4C2A751CA35A5D003273D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E4C2A771CA35A5D003273D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4C2A7C1CA35A5E003273D5 /* EAParseHtmlToTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAParseHtmlToTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C2A801CA35A5E003273D5 /* EAParseHtmlToTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAParseHtmlToTextViewTests.m; sourceTree = "<group>"; };
+		3E4C2A821CA35A5E003273D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4C2A871CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAParseHtmlToTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C2A8B1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAParseHtmlToTextViewUITests.m; sourceTree = "<group>"; };
+		3E4C2A8D1CA35A5E003273D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4C2A601CA35A5D003273D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C2A791CA35A5E003273D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C2A841CA35A5E003273D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4C2A5A1CA35A5D003273D5 = {
+			isa = PBXGroup;
+			children = (
+				3E4C2A651CA35A5D003273D5 /* EAParseHtmlToTextView */,
+				3E4C2A7F1CA35A5E003273D5 /* EAParseHtmlToTextViewTests */,
+				3E4C2A8A1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests */,
+				3E4C2A641CA35A5D003273D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4C2A641CA35A5D003273D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C2A631CA35A5D003273D5 /* EAParseHtmlToTextView.app */,
+				3E4C2A7C1CA35A5E003273D5 /* EAParseHtmlToTextViewTests.xctest */,
+				3E4C2A871CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4C2A651CA35A5D003273D5 /* EAParseHtmlToTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C2A691CA35A5D003273D5 /* AppDelegate.h */,
+				3E4C2A6A1CA35A5D003273D5 /* AppDelegate.m */,
+				3E4C2A6C1CA35A5D003273D5 /* ViewController.h */,
+				3E4C2A6D1CA35A5D003273D5 /* ViewController.m */,
+				3E4C2A6F1CA35A5D003273D5 /* Main.storyboard */,
+				3E4C2A721CA35A5D003273D5 /* Assets.xcassets */,
+				3E4C2A741CA35A5D003273D5 /* LaunchScreen.storyboard */,
+				3E4C2A771CA35A5D003273D5 /* Info.plist */,
+				3E4C2A661CA35A5D003273D5 /* Supporting Files */,
+			);
+			path = EAParseHtmlToTextView;
+			sourceTree = "<group>";
+		};
+		3E4C2A661CA35A5D003273D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C2A671CA35A5D003273D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E4C2A7F1CA35A5E003273D5 /* EAParseHtmlToTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C2A801CA35A5E003273D5 /* EAParseHtmlToTextViewTests.m */,
+				3E4C2A821CA35A5E003273D5 /* Info.plist */,
+			);
+			path = EAParseHtmlToTextViewTests;
+			sourceTree = "<group>";
+		};
+		3E4C2A8A1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C2A8B1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.m */,
+				3E4C2A8D1CA35A5E003273D5 /* Info.plist */,
+			);
+			path = EAParseHtmlToTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4C2A621CA35A5D003273D5 /* EAParseHtmlToTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C2A901CA35A5E003273D5 /* Build configuration list for PBXNativeTarget "EAParseHtmlToTextView" */;
+			buildPhases = (
+				3E4C2A5F1CA35A5D003273D5 /* Sources */,
+				3E4C2A601CA35A5D003273D5 /* Frameworks */,
+				3E4C2A611CA35A5D003273D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAParseHtmlToTextView;
+			productName = EAParseHtmlToTextView;
+			productReference = 3E4C2A631CA35A5D003273D5 /* EAParseHtmlToTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E4C2A7B1CA35A5E003273D5 /* EAParseHtmlToTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C2A931CA35A5E003273D5 /* Build configuration list for PBXNativeTarget "EAParseHtmlToTextViewTests" */;
+			buildPhases = (
+				3E4C2A781CA35A5E003273D5 /* Sources */,
+				3E4C2A791CA35A5E003273D5 /* Frameworks */,
+				3E4C2A7A1CA35A5E003273D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C2A7E1CA35A5E003273D5 /* PBXTargetDependency */,
+			);
+			name = EAParseHtmlToTextViewTests;
+			productName = EAParseHtmlToTextViewTests;
+			productReference = 3E4C2A7C1CA35A5E003273D5 /* EAParseHtmlToTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E4C2A861CA35A5E003273D5 /* EAParseHtmlToTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C2A961CA35A5E003273D5 /* Build configuration list for PBXNativeTarget "EAParseHtmlToTextViewUITests" */;
+			buildPhases = (
+				3E4C2A831CA35A5E003273D5 /* Sources */,
+				3E4C2A841CA35A5E003273D5 /* Frameworks */,
+				3E4C2A851CA35A5E003273D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4C2A891CA35A5E003273D5 /* PBXTargetDependency */,
+			);
+			name = EAParseHtmlToTextViewUITests;
+			productName = EAParseHtmlToTextViewUITests;
+			productReference = 3E4C2A871CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E4C2A5B1CA35A5D003273D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ever Aliaga";
+				TargetAttributes = {
+					3E4C2A621CA35A5D003273D5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3E4C2A7B1CA35A5E003273D5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3E4C2A621CA35A5D003273D5;
+					};
+					3E4C2A861CA35A5E003273D5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3E4C2A621CA35A5D003273D5;
+					};
+				};
+			};
+			buildConfigurationList = 3E4C2A5E1CA35A5D003273D5 /* Build configuration list for PBXProject "EAParseHtmlToTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E4C2A5A1CA35A5D003273D5;
+			productRefGroup = 3E4C2A641CA35A5D003273D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4C2A621CA35A5D003273D5 /* EAParseHtmlToTextView */,
+				3E4C2A7B1CA35A5E003273D5 /* EAParseHtmlToTextViewTests */,
+				3E4C2A861CA35A5E003273D5 /* EAParseHtmlToTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4C2A611CA35A5D003273D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C2A761CA35A5D003273D5 /* LaunchScreen.storyboard in Resources */,
+				3E4C2A731CA35A5D003273D5 /* Assets.xcassets in Resources */,
+				3E4C2A711CA35A5D003273D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C2A7A1CA35A5E003273D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C2A851CA35A5E003273D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4C2A5F1CA35A5D003273D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C2A6E1CA35A5D003273D5 /* ViewController.m in Sources */,
+				3E4C2A6B1CA35A5D003273D5 /* AppDelegate.m in Sources */,
+				3E4C2A681CA35A5D003273D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C2A781CA35A5E003273D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C2A811CA35A5E003273D5 /* EAParseHtmlToTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4C2A831CA35A5E003273D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C2A8C1CA35A5E003273D5 /* EAParseHtmlToTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4C2A7E1CA35A5E003273D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4C2A621CA35A5D003273D5 /* EAParseHtmlToTextView */;
+			targetProxy = 3E4C2A7D1CA35A5E003273D5 /* PBXContainerItemProxy */;
+		};
+		3E4C2A891CA35A5E003273D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4C2A621CA35A5D003273D5 /* EAParseHtmlToTextView */;
+			targetProxy = 3E4C2A881CA35A5E003273D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E4C2A6F1CA35A5D003273D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C2A701CA35A5D003273D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E4C2A741CA35A5D003273D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C2A751CA35A5D003273D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4C2A8E1CA35A5E003273D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E4C2A8F1CA35A5E003273D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E4C2A911CA35A5E003273D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EAParseHtmlToTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E4C2A921CA35A5E003273D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EAParseHtmlToTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E4C2A941CA35A5E003273D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EAParseHtmlToTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EAParseHtmlToTextView.app/EAParseHtmlToTextView";
+			};
+			name = Debug;
+		};
+		3E4C2A951CA35A5E003273D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EAParseHtmlToTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EAParseHtmlToTextView.app/EAParseHtmlToTextView";
+			};
+			name = Release;
+		};
+		3E4C2A971CA35A5E003273D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EAParseHtmlToTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EAParseHtmlToTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3E4C2A981CA35A5E003273D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EAParseHtmlToTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EAParseHtmlToTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4C2A5E1CA35A5D003273D5 /* Build configuration list for PBXProject "EAParseHtmlToTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C2A8E1CA35A5E003273D5 /* Debug */,
+				3E4C2A8F1CA35A5E003273D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4C2A901CA35A5E003273D5 /* Build configuration list for PBXNativeTarget "EAParseHtmlToTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C2A911CA35A5E003273D5 /* Debug */,
+				3E4C2A921CA35A5E003273D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E4C2A931CA35A5E003273D5 /* Build configuration list for PBXNativeTarget "EAParseHtmlToTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C2A941CA35A5E003273D5 /* Debug */,
+				3E4C2A951CA35A5E003273D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E4C2A961CA35A5E003273D5 /* Build configuration list for PBXNativeTarget "EAParseHtmlToTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C2A971CA35A5E003273D5 /* Debug */,
+				3E4C2A981CA35A5E003273D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E4C2A5B1CA35A5D003273D5 /* Project object */;
+}
