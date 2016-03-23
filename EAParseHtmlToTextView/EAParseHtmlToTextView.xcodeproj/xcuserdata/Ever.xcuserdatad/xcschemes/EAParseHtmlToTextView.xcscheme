@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E4C2A621CA35A5D003273D5"
+               BlueprintIdentifier = "3EED31B51CA35D0900FA5472"
                BuildableName = "EAParseHtmlToTextView.app"
                BlueprintName = "EAParseHtmlToTextView"
                ReferencedContainer = "container:EAParseHtmlToTextView.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E4C2A7B1CA35A5E003273D5"
+               BlueprintIdentifier = "3EED31CE1CA35D0900FA5472"
                BuildableName = "EAParseHtmlToTextViewTests.xctest"
                BlueprintName = "EAParseHtmlToTextViewTests"
                ReferencedContainer = "container:EAParseHtmlToTextView.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E4C2A861CA35A5E003273D5"
+               BlueprintIdentifier = "3EED31D91CA35D0900FA5472"
                BuildableName = "EAParseHtmlToTextViewUITests.xctest"
                BlueprintName = "EAParseHtmlToTextViewUITests"
                ReferencedContainer = "container:EAParseHtmlToTextView.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E4C2A621CA35A5D003273D5"
+            BlueprintIdentifier = "3EED31B51CA35D0900FA5472"
             BuildableName = "EAParseHtmlToTextView.app"
             BlueprintName = "EAParseHtmlToTextView"
             ReferencedContainer = "container:EAParseHtmlToTextView.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E4C2A621CA35A5D003273D5"
+            BlueprintIdentifier = "3EED31B51CA35D0900FA5472"
             BuildableName = "EAParseHtmlToTextView.app"
             BlueprintName = "EAParseHtmlToTextView"
             ReferencedContainer = "container:EAParseHtmlToTextView.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E4C2A621CA35A5D003273D5"
+            BlueprintIdentifier = "3EED31B51CA35D0900FA5472"
             BuildableName = "EAParseHtmlToTextView.app"
             BlueprintName = "EAParseHtmlToTextView"
             ReferencedContainer = "container:EAParseHtmlToTextView.xcodeproj">
