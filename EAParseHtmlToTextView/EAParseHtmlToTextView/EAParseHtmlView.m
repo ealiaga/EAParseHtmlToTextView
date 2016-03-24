@@ -11,7 +11,7 @@
 
 @interface EAParseHtmlView ()
 
-@property (strong, nonatomic) UITextView * textView;
+
 
 @end
 
@@ -24,7 +24,7 @@
         self.backgroundColor = [UIColor whiteColor];
         
         [self setupTextView];
-        
+    
     }
     
     return self;
@@ -39,39 +39,56 @@
                                                                  CGRectGetWidth(self.frame) - 20,
                                                                  CGRectGetHeight(self.frame) - 20)];
     
+    self.textView.editable = NO;
+    self.textView.selectable = true;
+    self.textView.dataDetectorTypes = UIDataDetectorTypeLink;
+    self.textView.delegate = self;
+    self.textView.delaysContentTouches = NO;
+    self.textView.tintColor = [UIColor redColor];
     
-
+    
    [self addSubview:self.textView];
 }
 
--(void) loadHtml:(NSString *) html
+-(void) loadHtml:(NSString *) html style:(NSString *) style
 {
     NSString * body = [html stringByReplacingOccurrencesOfString:@"\\n"
                                                      withString:@""];
     body = [body stringByReplacingOccurrencesOfString:@"\\"
                                            withString:@""];
-
     
-    NSLog(@"%@", body);
     
-    NSString * htmlWithBody = [NSString stringWithFormat:@"<html> \n"
+    body = [body stringByReplacingOccurrencesOfString:@"class=\"azuldestacado\""
+                                           withString:@""];
+    
+    NSString * htmlWithBody = [NSString stringWithFormat:@"<!DOCTYPE html> "
+                           "<html> \n"
                            "<head> \n"
                            "<meta charset=\"UTF-8\">"
                            "<style type=\"text/css\"> \n"
-                           "body {font-family: \"%@\"; font-size: %@; color: %@;}\n"
-                           "a {text-decoration: none;}\n"
-                           ".azuldestacado {color: red;}\n"
+                           "%@"
                            "</style> \n"
                            "</head> \n"
                            "<body>%@</body> \n"
-                           "</html>", @"Georgia", [NSNumber numberWithInt:16], @"#000000", body];
+                           "</html>", style, body]; // @"Georgia", [NSNumber numberWithInt:16], @"#000000"
+    
+     NSLog(@"%@", htmlWithBody);
 
-    NSAttributedString * attributedString = [[NSAttributedString alloc] initWithData:[htmlWithBody dataUsingEncoding:NSUnicodeStringEncoding]
+    NSAttributedString * attributedString = [[NSAttributedString alloc] initWithData:[htmlWithBody dataUsingEncoding:NSUTF8StringEncoding]
                                                                             options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType}
                                                                  documentAttributes:nil
                                                                               error:nil];
+    
+
     self.textView.attributedText = attributedString;
 
 }
+
+#pragma mark - UITextViewDelegate
+- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange
+{
+    return TRUE;
+}
+
 
 @end

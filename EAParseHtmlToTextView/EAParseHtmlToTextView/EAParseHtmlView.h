@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EAParseHtmlView : UIView
+@interface EAParseHtmlView : UIView<UITextViewDelegate>
 
+@property (strong, nonatomic) UITextView * textView;
 
 -(id) init;
--(void) loadHtml:(NSString *) body;
+-(void) loadHtml:(NSString *) body style:(NSString *) style;
+
 @end

@@ -18,6 +18,7 @@
 		3EED31EE1CA35ECF00FA5472 /* EAParseHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED31ED1CA35ECF00FA5472 /* EAParseHtmlViewController.m */; };
 		3EED31F11CA35F0600FA5472 /* EAParseHtmlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED31F01CA35F0500FA5472 /* EAParseHtmlView.m */; };
 		3EED31F31CA3652500FA5472 /* content HTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 3EED31F21CA3652500FA5472 /* content HTML.html */; };
+		3EED31F61CA38DAE00FA5472 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3EED31F51CA38DAE00FA5472 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3EED31EF1CA35F0500FA5472 /* EAParseHtmlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAParseHtmlView.h; sourceTree = "<group>"; };
 		3EED31F01CA35F0500FA5472 /* EAParseHtmlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAParseHtmlView.m; sourceTree = "<group>"; };
 		3EED31F21CA3652500FA5472 /* content HTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "content HTML.html"; sourceTree = "<group>"; };
+		3EED31F51CA38DAE00FA5472 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,7 @@
 		3EED31B81CA35D0900FA5472 /* EAParseHtmlToTextView */ = {
 			isa = PBXGroup;
 			children = (
-				3EED31F21CA3652500FA5472 /* content HTML.html */,
+				3EED31F41CA38CAD00FA5472 /* resource */,
 				3EED31BC1CA35D0900FA5472 /* AppDelegate.h */,
 				3EED31BD1CA35D0900FA5472 /* AppDelegate.m */,
 				3EED31BF1CA35D0900FA5472 /* ViewController.h */,
@@ -151,6 +153,15 @@
 				3EED31E01CA35D0900FA5472 /* Info.plist */,
 			);
 			path = EAParseHtmlToTextViewUITests;
+			sourceTree = "<group>";
+		};
+		3EED31F41CA38CAD00FA5472 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3EED31F51CA38DAE00FA5472 /* style.css */,
+				3EED31F21CA3652500FA5472 /* content HTML.html */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				3EED31F31CA3652500FA5472 /* content HTML.html in Resources */,
 				3EED31C91CA35D0900FA5472 /* LaunchScreen.storyboard in Resources */,
+				3EED31F61CA38DAE00FA5472 /* style.css in Resources */,
 				3EED31C61CA35D0900FA5472 /* Assets.xcassets in Resources */,
 				3EED31C41CA35D0900FA5472 /* Main.storyboard in Resources */,
 			);

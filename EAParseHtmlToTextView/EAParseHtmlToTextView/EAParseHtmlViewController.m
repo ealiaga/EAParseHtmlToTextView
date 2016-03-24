@@ -9,9 +9,11 @@
 #import "EAParseHtmlViewController.h"
 #import "EAParseHtmlView.h"
 
+
 @interface EAParseHtmlViewController ()
 
 @property (strong, nonatomic) EAParseHtmlView * eaParseHtmlView;
+
 @end
 
 @implementation EAParseHtmlViewController
@@ -47,7 +49,21 @@
                                                  encoding: NSUTF8StringEncoding error:&error];
    
     
-    [self.eaParseHtmlView loadHtml:htmlString];
+    NSString * pathStyle = [[NSBundle mainBundle] pathForResource:@"style" ofType:@"css"];
+    FILE * styleFile = fopen([path cStringUsingEncoding:1],"r");
+    if (styleFile == NULL){
+        NSLog(@"File not found.");
+        return;
+    }
+   
+    NSString * styleString = [NSString stringWithContentsOfFile:pathStyle
+                                                      encoding: NSUTF8StringEncoding error:&error];
+    NSLog(@"%@", styleString);
+    
+    [self.eaParseHtmlView loadHtml:htmlString style:styleString];
 }
+
+
+
 
 @end
