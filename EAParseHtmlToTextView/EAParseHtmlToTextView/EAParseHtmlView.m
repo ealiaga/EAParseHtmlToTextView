@@ -45,20 +45,17 @@
     self.textView.delegate = self;
     self.textView.delaysContentTouches = NO;
     self.textView.tintColor = [UIColor redColor];
+
     
-    
-   [self addSubview:self.textView];
+    [self addSubview:self.textView];
 }
 
 -(void) loadHtml:(NSString *) html style:(NSString *) style
 {
+    
     NSString * body = [html stringByReplacingOccurrencesOfString:@"\\n"
                                                      withString:@""];
     body = [body stringByReplacingOccurrencesOfString:@"\\"
-                                           withString:@""];
-    
-    
-    body = [body stringByReplacingOccurrencesOfString:@"class=\"azuldestacado\""
                                            withString:@""];
     
     NSString * htmlWithBody = [NSString stringWithFormat:@"<!DOCTYPE html> "
@@ -70,15 +67,12 @@
                            "</style> \n"
                            "</head> \n"
                            "<body>%@</body> \n"
-                           "</html>", style, body]; // @"Georgia", [NSNumber numberWithInt:16], @"#000000"
-    
-     NSLog(@"%@", htmlWithBody);
+                           "</html>", style, body];
 
     NSAttributedString * attributedString = [[NSAttributedString alloc] initWithData:[htmlWithBody dataUsingEncoding:NSUTF8StringEncoding]
                                                                             options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType}
                                                                  documentAttributes:nil
                                                                               error:nil];
-    
 
     self.textView.attributedText = attributedString;
 

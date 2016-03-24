@@ -40,7 +40,7 @@
     NSString * path = [[NSBundle mainBundle] pathForResource:@"content HTML" ofType:@"html"];
     FILE * htmlFile = fopen([path cStringUsingEncoding:1],"r");
     if (htmlFile == NULL){
-        NSLog(@"File not found.");
+        NSLog(@"File 'content HTML.html' not found.");
         return;
     }
     
@@ -52,13 +52,12 @@
     NSString * pathStyle = [[NSBundle mainBundle] pathForResource:@"style" ofType:@"css"];
     FILE * styleFile = fopen([path cStringUsingEncoding:1],"r");
     if (styleFile == NULL){
-        NSLog(@"File not found.");
+        NSLog(@"File 'style.css' not found.");
         return;
     }
    
     NSString * styleString = [NSString stringWithContentsOfFile:pathStyle
                                                       encoding: NSUTF8StringEncoding error:&error];
-    NSLog(@"%@", styleString);
     
     [self.eaParseHtmlView loadHtml:htmlString style:styleString];
 }
