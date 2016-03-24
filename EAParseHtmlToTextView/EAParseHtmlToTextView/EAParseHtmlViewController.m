@@ -22,7 +22,8 @@
 }
 
 
--(void) loadView{
+-(void) loadView
+{
     [super loadView];
     
     self.eaParseHtmlView = [[EAParseHtmlView alloc] init];
@@ -42,21 +43,11 @@
     }
     
     NSError * error;
-    NSString * htmlString = [NSString stringWithContentsOfFile: path
+    NSString * htmlString = [NSString stringWithContentsOfFile:path
                                                  encoding: NSUTF8StringEncoding error:&error];
-    NSLog(@"%@", htmlString);
+   
     
     [self.eaParseHtmlView loadHtml:htmlString];
-    
-    for (NSString* family in [UIFont familyNames])
-    {
-        NSLog(@"%@", family);
-        
-        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-        {
-            NSLog(@"  %@", name);
-        }
-    }
 }
 
 @end
