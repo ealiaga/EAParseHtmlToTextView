@@ -15,6 +15,9 @@
 		3EED31C91CA35D0900FA5472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED31C71CA35D0900FA5472 /* LaunchScreen.storyboard */; };
 		3EED31D41CA35D0900FA5472 /* EAParseHtmlToTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED31D31CA35D0900FA5472 /* EAParseHtmlToTextViewTests.m */; };
 		3EED31DF1CA35D0900FA5472 /* EAParseHtmlToTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED31DE1CA35D0900FA5472 /* EAParseHtmlToTextViewUITests.m */; };
+		3EED31EE1CA35ECF00FA5472 /* EAParseHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED31ED1CA35ECF00FA5472 /* EAParseHtmlViewController.m */; };
+		3EED31F11CA35F0600FA5472 /* EAParseHtmlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED31F01CA35F0500FA5472 /* EAParseHtmlView.m */; };
+		3EED31F31CA3652500FA5472 /* content HTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 3EED31F21CA3652500FA5472 /* content HTML.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		3EED31DA1CA35D0900FA5472 /* EAParseHtmlToTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAParseHtmlToTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EED31DE1CA35D0900FA5472 /* EAParseHtmlToTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAParseHtmlToTextViewUITests.m; sourceTree = "<group>"; };
 		3EED31E01CA35D0900FA5472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EED31EC1CA35ECF00FA5472 /* EAParseHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAParseHtmlViewController.h; sourceTree = "<group>"; };
+		3EED31ED1CA35ECF00FA5472 /* EAParseHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAParseHtmlViewController.m; sourceTree = "<group>"; };
+		3EED31EF1CA35F0500FA5472 /* EAParseHtmlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAParseHtmlView.h; sourceTree = "<group>"; };
+		3EED31F01CA35F0500FA5472 /* EAParseHtmlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAParseHtmlView.m; sourceTree = "<group>"; };
+		3EED31F21CA3652500FA5472 /* content HTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "content HTML.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		3EED31B81CA35D0900FA5472 /* EAParseHtmlToTextView */ = {
 			isa = PBXGroup;
 			children = (
+				3EED31F21CA3652500FA5472 /* content HTML.html */,
 				3EED31BC1CA35D0900FA5472 /* AppDelegate.h */,
 				3EED31BD1CA35D0900FA5472 /* AppDelegate.m */,
 				3EED31BF1CA35D0900FA5472 /* ViewController.h */,
@@ -110,6 +119,10 @@
 				3EED31C71CA35D0900FA5472 /* LaunchScreen.storyboard */,
 				3EED31CA1CA35D0900FA5472 /* Info.plist */,
 				3EED31B91CA35D0900FA5472 /* Supporting Files */,
+				3EED31EC1CA35ECF00FA5472 /* EAParseHtmlViewController.h */,
+				3EED31ED1CA35ECF00FA5472 /* EAParseHtmlViewController.m */,
+				3EED31EF1CA35F0500FA5472 /* EAParseHtmlView.h */,
+				3EED31F01CA35F0500FA5472 /* EAParseHtmlView.m */,
 			);
 			path = EAParseHtmlToTextView;
 			sourceTree = "<group>";
@@ -243,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EED31F31CA3652500FA5472 /* content HTML.html in Resources */,
 				3EED31C91CA35D0900FA5472 /* LaunchScreen.storyboard in Resources */,
 				3EED31C61CA35D0900FA5472 /* Assets.xcassets in Resources */,
 				3EED31C41CA35D0900FA5472 /* Main.storyboard in Resources */,
@@ -272,7 +286,9 @@
 			files = (
 				3EED31C11CA35D0900FA5472 /* ViewController.m in Sources */,
 				3EED31BE1CA35D0900FA5472 /* AppDelegate.m in Sources */,
+				3EED31F11CA35F0600FA5472 /* EAParseHtmlView.m in Sources */,
 				3EED31BB1CA35D0900FA5472 /* main.m in Sources */,
+				3EED31EE1CA35ECF00FA5472 /* EAParseHtmlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EAParseHtmlToTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EAParseHtmlToTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ealiaga.EAParseHtmlToTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
